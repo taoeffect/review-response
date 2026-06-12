@@ -1,6 +1,6 @@
 # Review Response
 
-An agent skill to work through a code review one issue at a time — investigating each issue, addressing legitimate ones via the `tasks` skill workflow (TODO + STEP files), and dismissing the rest.
+An agent skill to work through a code review one issue at a time — investigating each issue, addressing legitimate ones via the [`tasks` skill](https://github.com/taoeffect/tasks) workflow (TODO + STEP files), and dismissing the rest.
 
 ## Installation
 
