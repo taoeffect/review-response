@@ -27,6 +27,6 @@ If the user did not specify the `<review file>`, look in `.agents/review/<task n
 3. Read the review file at `.agents/review/<task name>/<review file>`.
 4. Work through the review **one issue at a time**. For each issue:
    1. Investigate whether it is a legitimate, real, important issue.
-   2. If legitimate: create a TODO for it in `TODOs.md` and a corresponding `STEP-<N>.md` file, then complete that TODO. As part of the last subtask, mark the issue in the review file as addressed (check its checkbox).
-   3. If not legitimate: mark the issue in the review file as 'dismissed', with a brief note explaining why.
+     - If so: create a TODO for it in `TODOs.md` and a corresponding `STEP-<N>.md` file, then complete that TODO. As part of the last subtask, mark the issue in the review file as addressed (check its checkbox).
+     - If not: mark the issue in the review file as 'dismissed', with a brief note explaining why.
 5. After handling one issue, stop and wait for further instruction from the user (they will likely ask you to handle the next issue, possibly in a new_session). Do not proceed to the next issue unless instructed otherwise.
